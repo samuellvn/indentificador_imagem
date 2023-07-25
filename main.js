@@ -21,7 +21,7 @@ function modelo_carregado(){
     console.log("o modelo foi carregado");
 }
 function check(){
-    var img=document.getElementById("result");
+    var img=document.getElementById("img_self");
     classificadora.classify(img, resultado_pegado);
 }
 function resultado_pegado(error, results){
